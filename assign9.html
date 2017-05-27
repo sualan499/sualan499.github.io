@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+    form{margin: 0 auto;
+    width:500px;
+    }
+    .city{padding-right: 12px;
+    font-size: 30px;
+    }
+    body {
+        font-size: 25px
+    }
+    
+    width: 156;
+}
+.radio {
+    vertical-align: middle;
+    width: 200px;
+}
+.btn {
+    height: 30px;
+    width: 150px;
+    display: inline-block;
+    -webkit-appearance: none;
+    background-color: white;
+    border-radius: 10px;
+    border-width: 1px;
+}
+    .city{width:50px;
+    
+    }
+    </style>
+
+<body>
+    <form action="">
+        <fieldset>
+            <legend>
+                payment information</legend>
+            <label for="name">name:&nbsp;</label>
+            <input id="t" type="name"> <br>
+            <label for="email">email:&nbsp;</label>
+            <label for="phone"></label>
+            <input id="t" type="email"><br>
+            <label for="phone">phone:</label>
+            <input id="t" type="phone" class="phone">
+
+            <br>
+            <label class="city" id="city" for="city">city:</label>
+            <input list="city">
+            <datalist id='t'>  
+       <option value="toronto">toronto</option>    
+        <option value="london">london</option>
+        <option value="waterloo"></option>
+        <option value="yellow knife"></option>
+        
+         
+       
+         </datalist>
+            <br>
+            <label for="radio">payment:</label>
+            <label for="">visa</label>
+            <input type="radio" name="card" checked>
+            <label for="">paypal</label>
+            <input type="radio" name="card" checked>
+            <label for="">mastercard</label>
+            <input type="radio" name="card" checked>
+        </fieldset>
+        <textarea label="comments?" name="comments" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="submit" class='btn' />
+
+    </form>
+
+</body>
+</html>

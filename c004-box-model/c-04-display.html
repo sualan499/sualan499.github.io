@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .block {
+            border: solid 7px;
+        }
+        
+        .inline {
+            display: inline;
+            line-height: 100px;
+        }
+        
+        .container {}
+        
+        .inlineblock {
+            display: inline-block;
+            border: solid;
+        }
+        .none{
+            border:solid;
+        display:none;
+        }
+    
+        .disapear{
+            border:solid 10px gold;
+            visibility: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <p>block:height is 0</p>
+    <div class=block></div>
+    <p>inline</p>
+    <!--no width-->
+    <div class="inline">abc</div>
+    <p class="container"></p>
+    <!--no height no width-->
+    <p class="inline-block"></p>
+<!--nothing-->
+<p class="none"></p>
+<p >footer</p>
+
+<p>visibility</p>
+<div id="disapear"></div>
+
+
+
+
+</body>
+</html>

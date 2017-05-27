@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+         :not(input[type='radio']) {
+            width: 156;
+        }
+        
+        #radiogroup input {
+            width: 200px;
+        }
+
+    </style>
+
+
+</head>
+
+<body>
+    <form action="#">
+
+        <input type="text" placeholder="Your name">
+        <br>
+        <input type="password"> <br>
+        <input type="hidden"> <br>
+        <input max=10 min=1 type="number"> <br>
+        <input type="email" placeholder="email"> <br>
+        <input type="submit"> <br>
+
+
+        <input type="url" placeholder="url"> <br>
+        <input type="tel" placeholder="tel"> <br>
+
+        <input min=1 max=4 type="range" onchange="updateTextInput(this.value)">
+        <input type="text" id="rangeValue"> <br>
+        <input type="color"> <br>
+        <input type="file"> <br>
+        <input type="search" placeholder="search">
+        <div id="radiogroup">
+            <input type="radio" name="food" checked>
+            <label for="">burger</label>
+            <input type="radio" name="food" checked>
+            <label for="">burger</label>
+            <input type="radio" name="food" checked>
+            <label for="">burger</label>
+
+        </div>
+        <div id="checkboxgroup">
+            <input type="checkbox" name="pop">
+            <label for="">sprite</label>
+            <input type="checkbox" name="pop">
+            <label for="">pepsi</label>
+            <input type="checkbox" name="pop">
+            <label for="">coke</label>
+        </div>
+
+        <input type="text" id="rangevalue">
+
+        <input type="button" placeholder="button">
+        <input type="reset" placeholder="reset">
+
+
+
+
+    </form>
+
+    <script>
+        function updateTextInput(val) {
+            document.getElementById('rangeValue').value = val;
+        }
+
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        img {
+            height: 106.7px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <form action="">
+       <fieldset>
+        <legend>my info
+        </legend>
+        <label for="name">name:&nbsp;</label>
+        <input id="name" type="name"> <br>
+        <label for="email">email:&nbsp;</label>
+        <input id="email" type="email"> <br>
+        <label for="gender">gender</label>
+        <input list="gender">
+        <datalist id=gender>  
+       <option value="mr">mr</option>    
+        <option value="mrs.">mrs.</option>
+            <option value="ms.">ms.</option>
+        <option value="other">other: if your a robot</option>
+        </datalist> <br>
+        <label for="city">city:</label>
+        <input list="city">
+        <datalist id=city>  
+       <option value="toronto">toronto</option>    
+        <option value="london">london</option>
+         <img src="img/burger.jpg" alt="burger">
+        </datalist>
+
+    </fieldset>
+    <fieldset>
+        <legend>food info</legend>
+        <label for="people">number of people:</label>
+        <input list="people">
+        <datalist id=people>  
+       <option value="1">1</option>    
+        <option value="2">2</option>
+        <option value="3">3</option>    
+        <option value="4">4</option>
+            </datalist> <br>
+        <img src="img/pizza.jpg" alt="pizza">
+        <input type="checkbox">
+        <img src="img/burger.jpg" alt="burger">
+        <input type="checkbox">
+        <br>
+        <label for="date">y/m/d:&nbsp;</label>
+        <input id="date" type="date">
+        <label for="time">time:&nbsp;</label>
+        <input id="time" type="time"> <br>
+        <div>visa</div> <input type="checkbox">
+        <div>mastercard</div> <input type="checkbox">
+        <div>paypal</div> <input type="checkbox">
+
+    </fieldset>
+    <textarea name="comments" id="" cols="30" rows="10">comments:</textarea> <br>
+    <input type="reset" placeholder="reset">
+    <input type="submit" placeholder="submit">
+    </form>
+</body>
+</html>
