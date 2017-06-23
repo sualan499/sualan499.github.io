@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<style>
+		#hobby {
+			color: blue;
+		}
+		
+		.interest {
+			color: red;
+		}
+		body ul{
+			color: lime!important;
+		}
+		ul {
+			color: green !important;
+			font-size: 3em;
+		}
+		
+		[data='whatido'] {
+			color: pink;
+		}
+		li:first-child{
+			background-color: cyan;
+		}
+		li:nth-child(2){
+			background: gold;
+		}
+/*		pesudoclass*/
+	</style>
+</head>
+
+<body>
+	<h2>inline style>id>class=attr>tag</h2>
+	<h2>last>previous,if same css specifity</h2>
+	<h2>long path>short path</h2>
+	<ul class="interest" id="hobby" data="whatido" style="color:cyan">
+		<li>Tennis</li>
+		<li>Soccer</li>
+		<li>Walking</li>
+	</ul>
+
+</body>
+</html>
