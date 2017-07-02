@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        div {
+            background-color: tomato;
+            border-radius: 100px;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            left: 200px;
+        }
+        
+        div {
+            -webkit-transition-property: left;
+            -moz-transition-property: left;
+            -ms-transition-property: left;
+            -o-transition-property: left;
+            transition-property: left;
+            -webkit-transition-duration: 2s;
+            -moz-transition-duration: 2s;
+            -ms-transition-duration: 2s;
+            -o-transition-duration: 2s;
+            transition-duration: 2s;
+        }
+        
+        div:hover {
+            left: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+</body>
+
+</html>
